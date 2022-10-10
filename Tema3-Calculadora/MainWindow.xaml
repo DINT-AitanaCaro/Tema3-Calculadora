@@ -12,7 +12,7 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -70,9 +70,7 @@
             </Viewbox>
         </Button>
         <Button Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Margin="5" Tag="0" Click="Button_Click">
-            <Viewbox>
-                <TextBlock>0</TextBlock>
-            </Viewbox>
+                <TextBlock FontSize="30" >0</TextBlock>
         </Button>
     </Grid>
 </Window>
